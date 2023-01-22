@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./src/img/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+
+    <title>Devil May Cry 5 Special Edition</title>
+</head>
+<body>
+    <div class="video-background">
+        <video class="video" autoplay loop muted>
+            <source src="./src/video/opening.mp4" type="video/mp4">
+        </video>
+    </div>
+    <header class="header">
+        <a>
+            <img class="logo" src="./src/img/Devil-May-Cry-5-game.png" alt="imagem do enigma do milénio">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="info">
+            <img class="title-image" src="./src/img/title-logo.png" alt="imagem do titulo">
+            <p class="description">O melhor caçador de demônios está de volta com estilo, no jogo que os fãs de ação estavam esperando. Agora inclui o conteúdo baixável Personagem Jogável: Vergil! Um novo episódio na lendária série de ação, Devil May Cry 5 traz junto sua clássica mistura de ação turbinada com personagens originais de outro mundo e a mais nova tecnologia de jogos Capcom para trazer uma obra de arte de ação e aventura visualmente inovadora.</p>
+            <button class="trailer-button">Veja o Trailer</button>
+        </div>
+        <img class="vergil" src="./src/img/vergil.png" alt="imagem com o titulo e o protagonista">
+        <div class="modal">
+            <div class="modal-content">
+                <span class="close-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/hIkLSRPxZKw" title="trailer oficial" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
